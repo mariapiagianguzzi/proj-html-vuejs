@@ -8,6 +8,17 @@
 .d-flex {
   display: flex;
 }
+.container {
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.row {
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+}
+/* FINE SEZIONE CLASSI UTILITY */
 /* SEZIONE CLASSI FONT */
 .worksans {
   font-family: "Work Sans";
@@ -78,16 +89,29 @@ a:hover {
   display: block; /* CHIEDERE A FABIOLA */
 }
 /* /FINE SEZIONE NAVBAR */
-.container {
-  justify-content: center;
-  margin-left: 50px;
-  margin-right: 50px;
+/* INIZIO SEZIONE MAIN */
+.card-text {
+  margin-top: 80px;
+  width: 500px;
+  height: 500px;
+  background-color: white;
 }
-.row {
-  width: 100%;
-  height: 300px;
-  background-color: aqua;
+.card-text h2 {
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: center;
+  color: #c05bc4;
 }
+.card-text button {
+  border-radius: 10px;
+  background-color: #c05bc4;
+  color: white;
+}
+.card-text button:hover {
+  background-color: white;
+  color: #c05bc4;
+}
+/* /FINE SEZIONE MAIN */
 footer {
   width: 100%;
   height: 200px;
