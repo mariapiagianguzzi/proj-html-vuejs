@@ -3,6 +3,7 @@
 let app = new Vue({
   el: "#app",
   data: {
+    counter: 0,
     navbar: [
       {
         text: "HOME",
@@ -29,5 +30,25 @@ let app = new Vue({
         text: "MY ACCOUNT",
       },
     ],
+    images: [
+      "./img/choco-chip-cookies-235x300.jpg",
+      "./img/strawberry-jam-cookies-235x300.jpg",
+      "./img/home-bread-235x300.jpg",
+      "./img/blackberry-stuffed-bread-200x255.jpg",
+    ],
   },
+  /*  methods: {
+    next() {
+      this.counter++;
+      if (this.counter === this.images.length) {
+        this.counter = 0;
+      }
+    },
+    prev() {
+      this.counter--;
+      if (this.counter === -1) {
+        this.counter = this.images.length - 1;
+      }
+    },
+  }, */
 });
