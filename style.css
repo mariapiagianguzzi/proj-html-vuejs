@@ -3,22 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* CLASSI UTILITY */
-.d-flex {
-  display: flex;
+body {
+  overflow-x: hidden;
 }
-.container {
-  justify-content: center;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.row {
-  width: 100%;
-  height: 500px;
-  /* background-color: aqua; */
-}
-/* FINE SEZIONE CLASSI UTILITY */
 /* SEZIONE CLASSI FONT */
 .worksans {
   font-family: "Work Sans";
@@ -98,70 +85,108 @@ a:hover {
   left: 0;
 }
 /* /FINE SEZIONE NAVBAR */
-/* INIZIO SEZIONE MAIN */
-.card-text {
-  /* prima riga */
-  margin-top: 80px;
-  width: 500px;
+/* CLASSI UTILITY */
+.d-flex {
+  display: flex;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.container_footer {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.ml_50 {
+  /* margine sinistro */
+  margin-left: 50px;
+}
+.mr_50 {
+  margin-right: 50px;
+}
+/* FINE CLASSI UTILITY */
+/* INIZIO SEZIONE PASTICCERIA */
+#pasticceria {
   height: 500px;
-  /* background-color: rgb(161, 92, 92); */
 }
-.card-text p {
-  color: #878589;
-  margin-left: 30px;
+.shopping {
+  width: 40%;
 }
-.card-text h2 {
-  margin-left: 30px;
-  margin-top: 30px;
-  text-align: center;
-  color: #cb2ca2;
+.biscuit {
+  width: calc(100% - 40%);
 }
 
-.card-text button {
-  border-radius: 10px;
-  background-color: #cb2ca2;
-  color: white;
+.biscuit img:first-child {
+  padding-right: 10px;
 }
-.card-text button:hover {
-  background-color: white;
-  color: #cb2ca2; /* fine prima riga */
-}
-.card-text img {
-  width: 300px;
-  height: 400px;
-  margin-left: 20px;
+.col_2 {
+  width: calc(100% / 2);
 }
 
-/* .next {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-} */
-.baking {
+/* FINE SEZIONE PASTICCERIA */
+
+/* INIZIO SEZIONE SPECIAL MOMENT */
+#special_moments {
+  /* height: 500px; */
+}
+.moments img {
   width: 100%;
-  height: 100px;
 }
-.baking p {
-  text-align: center;
-  padding-top: 200px;
-  color: #878589;
+/* FINE SEZIONE SPECIAL MOMENTS */
+#bakery_carosello {
 }
-.baking h1 {
-  text-align: center;
-  padding-top: 10px;
-  color: #c05bc4;
+.products {
+  width: calc(100% / 5);
+}
+.carousel {
+  width: calc(100% - 20%);
+}
+.col_4 {
+  width: calc(100% / 4);
+}
+.col_4 img {
+  width: 100%;
+}
+.corousel .col_4:not(:last-child) {
+  /* NELLA COLONNA 4 MI METTI IL MARGIN MA NON ALL'ULTIMA COLONNA */
+  margin-right: 15px;
 }
 
-.wedding img {
-  width: 600px;
-  height: 100%;
-  margin-left: 40px;
-  align-items: center;
+#bread {
+}
+.col_12 img {
+  width: 100%;
+}
+.col_2 img {
+  width: 100%;
 }
 
-/* /FINE SEZIONE MAIN */
+#visit {
+}
+.col_3 {
+  width: calc(100% / 3);
+}
+
+#made {
+}
+.col_center {
+  width: 50%;
+  margin-right: 25px;
+}
+.row .col_4:not(:last-child) {
+  /* NELLA COLONNA 4 MI METTI IL MARGIN MA NON ALL'ULTIMA COLONNA */
+  margin-right: 25px;
+}
+.mt_25 {
+  margin-top: 25px;
+}
+#order img {
+  width: 100%;
+}
 footer {
-  width: 100%;
-  height: 200px;
+  height: 500px;
   background-color: pink;
 }

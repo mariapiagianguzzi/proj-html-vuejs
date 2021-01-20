@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>proj-html-vuejs</title>
@@ -31,7 +31,6 @@
   </head>
   <body>
     <div id="app">
-      <!-- INIZIO HEADER -->
       <header>
         <nav>
           <img src="./img/avada-bakery-logo.png" alt="" />
@@ -40,12 +39,12 @@
               >{{ link.text }}
             </a>
             <!-- <a href="">SHOP</a>
-            <a href="">ABOUT</a>
-            <a href="">GALLERY</a>
-            <a href="">LOCATIONS</a>
-            <a href="">JOURNAL</a>
-            <a href="">CONTACT</a>
-            <a href="">MY ACCOUNT</a> -->
+          <a href="">ABOUT</a>
+          <a href="">GALLERY</a>
+          <a href="">LOCATIONS</a>
+          <a href="">JOURNAL</a>
+          <a href="">CONTACT</a>
+          <a href="">MY ACCOUNT</a> -->
             <a href=""><i class="fas fa-shopping-cart"></i></a>
           </div>
         </nav>
@@ -60,95 +59,130 @@
           <button type="button">Explore our products</button>
         </div>
       </header>
-      <!-- FINE HEADER -->
-
-      <!-- INIZIO SEZIONE MAIN -->
-      <main class="container">
-        <!-- INIZIO SEZIONE CARD BISCOTTI CAROSELLO -->
-        <div class="container d-flex">
-          <div class="row d-flex">
-            <div class="card-text">
-              <p class="worksans">OUR PRODUCTS</p>
-              <h2 class="roboto">
-                All our delectable pastries are backed fresh in our Kitchen very
-                morning, and are made with all-natural, all organic ingredients.
-              </h2>
-              <button type="button">Start Shopping</button>
-            </div>
-            <div class="card-text d-flex">
-              <img src="./img/choco-chip-cookies-500x638.jpg" alt="" />
-              <img src="./img/strawberry-jam-cookies-500x638.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-        <!-- FINE SEZIONE CARD BISCOTTI CAROSELLO -->
-        <!-- RIGA CON TESTO -->
+      <main>
         <div class="container">
-          <div class="row">
-            <div class="baking">
-              <p class="worksans">CORPORATE & WEDDINGS</p>
-              <h1 class="roboto">Baking Special Moments</h1>
+          <div id="pasticceria" class="d-flex">
+            <div class="shopping"></div>
+            <div class="biscuit d-flex">
+              <img
+                class="col_2"
+                src="./img/choco-chip-cookies-500x638.jpg"
+                alt=""
+              />
+              <img
+                class="col_2"
+                src="./img/strawberry-jam-cookies-500x638.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div id="special_moments">
+            <p>CORPORATE & WEDDINGS</p>
+            <h2>Baking Special Moments</h2>
+            <div class="moments d-flex">
+              <div class="col_2 mr_50">
+                <img src="./img/corporate-bg.jpg" alt="" />
+              </div>
+              <div class="col_2 ml_50">
+                <img src="./img/wedding-bg.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="bakery_carosello" class="d-flex">
+            <div class="products"></div>
+            <div class="carousel d-flex">
+              <div class="col_4">
+                <div class="card">
+                  <div class="overlay">
+                    <div class="info"><p></p></div>
+                  </div>
+                  <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+                </div>
+                <h4>fhiufvhiufh</h4>
+                <p>fchjbucb</p>
+              </div>
+              <div class="col_4">
+                <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+              </div>
+              <div class="col_4">
+                <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+              </div>
+              <div class="col_4">
+                <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="bread">
+            <div class="col_12">
+              <img src="./img/screenshoti.png" alt="" />
+            </div>
+            <div class="col_6 d-flex">
+              <div class="col_2">
+                <img src="./img/bakery-process-2.jpg" alt="" />
+              </div>
+              <div class="col_2">
+                <p>swyuuydg</p>
+                <h2>
+                  “Finally found an alternative to the mass produced products.
+                  Something that incorporates real organic ingredients, nutrient
+                  dense wellness while promoting sustainability and activity.”
+                </h2>
+              </div>
+            </div>
+            <div class="col_12">
+              <img src="./img/bakery-process-3.jpg" alt="" />
+            </div>
+          </div>
+          <div id="visit">
+            <p>shud</p>
+            <h2>Visit our Bakeries</h2>
+            <div class="d-flex">
+              <div class="col_2">
+                <img src="./img/new-york-bk.jpg" alt="" />
+                <h2>New York</h2>
+                <div class="d-flex">
+                  <div class="col_3">grtfb</div>
+                  <div class="col_3">gtfg</div>
+                  <div class="col_3">grtg</div>
+                </div>
+              </div>
+              <div class="col_2">
+                <img src="./img/london-bk.jpg" alt="" />
+                <h2>London</h2>
+                <div class="d-flex">
+                  <div class="col_3">dgfr</div>
+                  <div class="col_3">ferdeg</div>
+                  <div class="col_3">fvferdv</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="made">
+            <div class="row d-flex">
+              <div class="col_4"><img src="./img/london-bk.jpg" alt="" /></div>
+              <div class="col_center"><h2>Let's stay in touch</h2></div>
+              <div class="col_4"><img src="./img/london-bk.jpg" alt="" /></div>
+            </div>
+            <div class="row mt_25 d-flex">
+              <div class="col_4"><img src="./img/london-bk.jpg" alt="" /></div>
+              <div class="col_4">
+                <img src="./img/london-bk.jpg" alt="" />
+              </div>
+              <div class="col_4">
+                <img src="./img/london-bk.jpg" alt="" />
+              </div>
+              <div class="col_4"><img src="./img/london-bk.jpg" alt="" /></div>
             </div>
           </div>
         </div>
-        <!-- /RIGA CON TESTO -->
-        <!-- CARD IMMAGINI SPECIAL MOMENTS -->
-        <div class="container d-flex">
-          <div class="row">
-            <div class="wedding d-flex">
-              <img src="./img/corporate-bg.jpg" alt="" />
-              <img src="./img/wedding-bg.jpg" alt="" />
-            </div>
+        <div id="order">
+          <div>
+            <img src="./img/bakery-process-3.jpg" alt="" />
           </div>
         </div>
-        <!-- /FINE CARD IMMAGINI SPECIAL MOMENTS -->
-        <!-- INIZIO SEZIONE CAROSELLO -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- FINE SEZIONE CAROSELLO -->
-        <!-- RIGA CON IMMAGINE 01 -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- /FINE RIGA CON IMMAGINE 01 -->
-        <!-- IMMAGINE CARD O2 E TESTO -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- /FINE IMMAGINE CARD 02 E TESTO -->
-        <!-- RIGA CON IMMAGINE 02 -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- /FINE RIGA CON IMMAGINE 02 -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- RIGA CON TESTO -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- /RIGA CON TESTO -->
-        <!-- RIGA CON IMMAGINI NEW YORK E LONDON -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- /FINE RIGA CON IMMAGINI NEW YORK E LONDON -->
-        <!-- RIGA CON CARD IMMAGINI DA USARE CON FLEXBOX LE IMMAGINI SONO SEI -->
-        <div class="container d-flex">
-          <div class="row">
-            <div class=""></div>
-          </div>
-        </div>
-        <!-- FINE RIGA CON SEI IMMAGINI -->
-        <!-- SEZIONE ORDER -->
-        <div class="container d-flex">
-          <div class="row"></div>
-        </div>
-        <!-- /FINE SEZIONE ORDER -->
       </main>
-      <footer></footer>
+
+      <footer class="container_footer"></footer>
     </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
