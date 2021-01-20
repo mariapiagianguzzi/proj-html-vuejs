@@ -43,6 +43,20 @@ header {
   margin-left: 30px;
   color: #878589;
 }
+button {
+  margin-top: 30px;
+  font-size: 1rem;
+  margin-left: 30px;
+  padding: 13px 29px;
+  border-radius: 10px;
+  border-style: none;
+  color: #c05bc4;
+  background-color: white;
+}
+button:hover {
+  background-color: #c05bc4;
+  color: white;
+}
 /* /FINE SEZIONE HEADER */
 /* SEZIONE NAVBAR */
 nav {
