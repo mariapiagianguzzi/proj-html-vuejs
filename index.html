@@ -31,6 +31,7 @@
   </head>
   <body>
     <div id="app">
+      <!-- INIZIO SEZIONE HEADER -->
       <header>
         <nav>
           <img src="./img/avada-bakery-logo.png" alt="" />
@@ -59,10 +60,20 @@
           <button type="button">Explore our products</button>
         </div>
       </header>
+      <!-- FINE SEZIONE HEADER -->
+      <!-- INIZIO SEZIONE MAIN -->
       <main>
         <div class="container">
+          <!-- INIZIO SEZIONE BISCOTTI -->
           <div id="pasticceria" class="d-flex">
-            <div class="shopping"></div>
+            <div class="shopping">
+              <p class="worksans">OUR PRODUCTS</p>
+              <h2 class="roboto">
+                All our delectable pastries are backed fresh in our Kitchen very
+                morning, and are made with all-natural, all organic ingredients.
+              </h2>
+              <button type="button">Start Shopping</button>
+            </div>
             <div class="biscuit d-flex">
               <img
                 class="col_2"
@@ -76,9 +87,11 @@
               />
             </div>
           </div>
+          <!-- FINE SEZIONE BISCOTTI -->
+          <!-- INIZIO SEZIONE MOMENTI SPECIALI -->
           <div id="special_moments">
-            <p>CORPORATE & WEDDINGS</p>
-            <h2>Baking Special Moments</h2>
+            <p class="worksans text_p">CORPORATE & WEDDINGS</p>
+            <h2 class="roboto text">Baking Special Moments</h2>
             <div class="moments d-flex">
               <div class="col_2 mr_50">
                 <img src="./img/corporate-bg.jpg" alt="" />
@@ -88,8 +101,20 @@
               </div>
             </div>
           </div>
+          <!-- FINE SEZIONE MOMENTI SPECIALI -->
+          <!-- SEZIONE CAROSELLO DEI BISCOTTI -->
           <div id="bakery_carosello" class="d-flex">
-            <div class="products"></div>
+            <div class="products">
+              <h3 class="roboto">
+                Find a freshly baked product perfect for you
+              </h3>
+              <p class="worksans">
+                Integer a nibh vitae ex porttitor rutrum et ut velit. Etiam ac
+                felis at leo feugiat placerat. Sed ac nulla id orci tempor
+                convallis sed.
+              </p>
+              <button type="button">Shop All Products</button>
+            </div>
             <div class="carousel d-flex">
               <div class="col_4">
                 <div class="card">
@@ -98,20 +123,28 @@
                   </div>
                   <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
                 </div>
-                <h4>fhiufvhiufh</h4>
-                <p>fchjbucb</p>
+                <h4 class="roboto">Choco Chip Cookies</h4>
+                <p class="worksans">$18.00 – $32.00</p>
               </div>
               <div class="col_4">
                 <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+                <h4 class="roboto">Strawberry Jam Cookies</h4>
+                <p class="worksans">$36.00 – $60.00</p>
               </div>
               <div class="col_4">
                 <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+                <h4 class="roboto">Strawberry Donut</h4>
+                <p class="worksans">$24.00 – $48.00</p>
               </div>
               <div class="col_4">
                 <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+                <h4 class="roboto">Perfect Macarons</h4>
+                <p class="worksans">$32.00 – $56.00</p>
               </div>
             </div>
           </div>
+          <!-- FINE SEZIONE CAROSELLO DEI BISCOTTI -->
+          <!-- SEZIONE PANE -->
           <div id="bread">
             <div class="col_12">
               <img src="./img/screenshoti.png" alt="" />
@@ -121,21 +154,28 @@
                 <img src="./img/bakery-process-2.jpg" alt="" />
               </div>
               <div class="col_2">
-                <p>swyuuydg</p>
-                <h2>
-                  “Finally found an alternative to the mass produced products.
-                  Something that incorporates real organic ingredients, nutrient
-                  dense wellness while promoting sustainability and activity.”
-                </h2>
+                <div class="bread_text">
+                  <p class="worksans">DONT JUST TAKE OUR WORD FOR IT</p>
+                  <h2 class="roboto">
+                    “Finally found an alternative to the mass produced products.
+                    Something that incorporates real organic ingredients,
+                    nutrient dense wellness while promoting sustainability and
+                    activity.”
+                  </h2>
+                  <p class="worksans">Rachel Cooper, Founder</p>
+                </div>
               </div>
             </div>
             <div class="col_12">
-              <img src="./img/bakery-process-3.jpg" alt="" />
+              <img class="delivered" src="./img/bakery-process-3.jpg" alt="" />
+              <h2>Delivered to your home</h2>
             </div>
           </div>
+          <!-- FINE SEZIONE PANE -->
+          <!-- SEZIONE VISIT -->
           <div id="visit">
-            <p>shud</p>
-            <h2>Visit our Bakeries</h2>
+            <p class="worksans">LOCATIONS</p>
+            <h2 class="roboto visit_h">Visit our Bakeries</h2>
             <div class="d-flex">
               <div class="col_2">
                 <img src="./img/new-york-bk.jpg" alt="" />
@@ -157,6 +197,8 @@
               </div>
             </div>
           </div>
+          <!-- FINE SEZIONE VISIT -->
+          <!-- INIZIO SEZIONE MADE -->
           <div id="made">
             <div class="row d-flex">
               <div class="col_4"><img src="./img/london-bk.jpg" alt="" /></div>
@@ -175,12 +217,16 @@
             </div>
           </div>
         </div>
+        <!-- FINE SEZIONE MADE -->
+        <!-- INIZIO SEZIONE ORDINE SENZA CONTAINER -->
         <div id="order">
           <div>
             <img src="./img/bakery-process-3.jpg" alt="" />
           </div>
         </div>
+        <!-- FINE SEZIONE ORDINE SENZA CONTAINER -->
       </main>
+      <!-- FINE SEZIONE MAIN -->
 
       <footer class="container_footer"></footer>
     </div>
