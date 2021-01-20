@@ -4,10 +4,18 @@
     <meta charset="utf-8" />
     <title>proj-html-vuejs</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;1,200&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Work+Sans:ital,wght@0,200;1,200&display=swap"
+      rel="stylesheet"
+    />
+    ">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link
@@ -26,38 +34,88 @@
     <div id="app">
       <!-- INIZIO HEADER -->
       <header>
-        <nav></nav>
-          <div class="jumbotron">
-              <div class="jumbo_text"></div>
+        <nav>
+          <img src="./img/avada-bakery-logo.png" alt="" />
+          <div class="navbar d-flex">
+            <a href="#" class="worksans" v-for="link in navbar"
+              >{{ link.text }}
+            </a>
+            <!-- <a href="">SHOP</a>
+            <a href="">ABOUT</a>
+            <a href="">GALLERY</a>
+            <a href="">LOCATIONS</a>
+            <a href="">JOURNAL</a>
+            <a href="">CONTACT</a>
+            <a href="">MY ACCOUNT</a> -->
+            <a href=""><i class="fas fa-shopping-cart"></i></a>
           </div>
-            <span class="subscribe"></span>
-          </div>
+        </nav>
+        <div class="jumbotron worksans">
+          <p>FRESH & TASTY BAKERY EVERY DAY</p>
+        </div>
       </header>
       <!-- FINE HEADER -->
+
       <!-- INIZIO SEZIONE MAIN -->
       <main>
-        <div class="d-container container">
-            <!-- QUI METTO LE TRE BOX UNA CON TESTO -->
-            <div class="box"></div>
-            <!-- BOX CON IMMAGINE -->
-            <div class="box"></div>
-            <!-- BOX CON IMMAGINE -->
-            <div class="box"></div>
-            <!-- RIGA CON TESTO -->
-            <div class="row"></div>
-            <!-- SEZIONE CON DUE IMMAGINI SPECIAL MOMENTS -->
-            <div class="image"></div>
-            <div class="image"></div>
-            <!-- FINE SEZIONE CON DUE IMMAGINI SPECIAL MOMENTS -->
-            <!-- RIGA CON 5 BOX UNA DI TESTO -->
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <!-- FINE SEZIONE RIGA CON 5 BOX UNA DI TESTO --></div>
-        
-        <!-- RIGA CON IMMAGINE DI SFONFO E DUE DIV DI TESTO INTERNI -->
+        <!-- INIZIO SEZIONE CARD BISCOTTI CAROSELLO -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- FINE SEZIONE CARD BISCOTTI CAROSELLO -->
+        <!-- RIGA CON TESTO -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /RIGA CON TESTO -->
+        <!-- CARD IMMAGINI SPECIAL MOMENTS -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /FINE CARD IMMAGINI SPECIAL MOMENTS -->
+        <!-- INIZIO SEZIONE CAROSELLO -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- FINE SEZIONE CAROSELLO -->
+        <!-- RIGA CON IMMAGINE 01 -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /FINE RIGA CON IMMAGINE 01 -->
+        <!-- IMMAGINE CARD O2 E TESTO -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /FINE IMMAGINE CARD 02 E TESTO -->
+        <!-- RIGA CON IMMAGINE 02 -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /FINE RIGA CON IMMAGINE 02 -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- RIGA CON TESTO -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /RIGA CON TESTO -->
+        <!-- RIGA CON IMMAGINI NEW YORK E LONDON -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /FINE RIGA CON IMMAGINI NEW YORK E LONDON -->
+        <!-- RIGA CON CARD IMMAGINI DA USARE CON FLEXBOX LE IMMAGINI SONO SEI -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- FINE RIGA CON SEI IMMAGINI -->
+        <!-- SEZIONE ORDER -->
+        <div class="container d-flex">
+          <div class="row"></div>
+        </div>
+        <!-- /FINE SEZIONE ORDER -->
       </main>
       <footer></footer>
     </div>
