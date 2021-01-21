@@ -75,7 +75,7 @@ nav {
   margin: 60px 10px;
   margin-right: 10px;
 }
-a:hover {
+.navbar a:hover {
   border-bottom: 3px solid #c05bc4;
   margin-right: 10px;
 
@@ -280,7 +280,7 @@ nav img {
   width: 100%;
 }
 /* FINE SEZIONE BREAD */
-
+/* INIZIO SEZIONE VISIT */
 #visit {
   margin-top: 70px;
   text-align: center;
@@ -355,28 +355,25 @@ nav img {
 /* SEZIONE FOOTER FATTO CON VUEJS */
 footer {
   display: flex;
+  width: 90%;
+  margin: auto;
   height: 500px;
-  align-items: center;
   justify-content: space-between;
   display: flex;
 }
 
 .footer_a a {
-  position: relative;
-  text-decoration: none;
   margin: 60px 10px;
   margin-right: 10px;
+  text-decoration: none;
 }
-a:hover {
-  border-bottom: 3px solid #c05bc4;
-
-  display: block;
+.footer_b {
+  background-color: peru;
+  width: calc(100% / 2);
+  height: 300px;
 }
-.footer_a a:after {
-  content: "";
-  width: 100%;
-  /* height: 1px; */
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.footer_a {
+  width: calc(100% / 2);
+  height: 300px;
+  background-color: rgb(109, 151, 130);
 }
