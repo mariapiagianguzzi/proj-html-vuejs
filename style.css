@@ -232,7 +232,7 @@ a:hover {
   /* NELLA COLONNA 4 MI METTI IL MARGIN MA NON ALL'ULTIMA COLONNA */
   margin-right: 15px;
 }
-
+/* INIZIO SEZIONE BREAD */
 #bread {
 }
 
@@ -263,6 +263,7 @@ a:hover {
 .col_2 img {
   width: 100%;
 }
+/* FINE SEZIONE BREAD */
 
 #visit {
   margin-top: 100px;
@@ -284,14 +285,37 @@ a:hover {
   color: #8a3ec9;
 }
 .city-p {
+  margin-top: 20px;
   text-align: center;
   margin-top: 10px;
 }
+/* INIZIO SEZIONE MADE */
 #made {
+  text-align: center;
+  margin-top: 100px;
+}
+.bgt button {
+  margin-top: 50px;
+  font-size: 1rem;
+  margin-left: 30px;
+  padding: 13px 29px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: #8a3ec9;
+}
+.bgt button:hover {
+  background-color: white;
+  color: #8a3ec9;
+}
+.bgt i {
+  padding-right: 10px;
 }
 .col_center {
   width: 50%;
   margin-right: 25px;
+  padding: 40px;
+  background-color: #f0e7e9;
 }
 .row .col_4:not(:last-child) {
   /* NELLA COLONNA 4 MI METTI IL MARGIN MA NON ALL'ULTIMA COLONNA */
@@ -300,6 +324,7 @@ a:hover {
 .mt_25 {
   margin-top: 25px;
 }
+/* FINE SEZIONE MADE */
 #order img {
   width: 100%;
   margin-top: 100px;
