@@ -13,6 +13,9 @@ body {
 .roboto {
   font-family: "Roboto";
 }
+.notoserif {
+  font-family: "Noto Serif";
+}
 /* FINE SEZIONE FONT */
 /* SEZIONE HEADER */
 header {
@@ -243,11 +246,12 @@ a:hover {
 .bread_text p {
   padding: 18px;
   margin-left: 20px;
+  margin-bottom: 10px;
   color: #878589;
   background-color: rgb(231, 224, 216);
 }
 .bread_text h2 {
-  font-size: 3rem;
+  font-size: 2.6rem;
   padding: 10px;
   margin-left: 20px;
   color: #8a3ec9;
@@ -266,7 +270,7 @@ a:hover {
 /* FINE SEZIONE BREAD */
 
 #visit {
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
 }
 .visit_h {
@@ -325,10 +329,16 @@ a:hover {
   margin-top: 25px;
 }
 /* FINE SEZIONE MADE */
+/*SEZIONE ORDINE SENZA CONTAINER */
 #order img {
   width: 100%;
   margin-top: 100px;
+  position: relative;
+  opacity: 1;
 }
+.img_order h1 {
+}
+/* FINE SEZIONE ORDINE SENZA CONTAINER */
 
 /* SEZIONE FOOTER FATTO CON VUEJS */
 footer {
