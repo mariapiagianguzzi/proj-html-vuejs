@@ -193,7 +193,8 @@ nav img {
 }
 .products h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
+  margin-right: 100px;
   color: #8a3ec9;
   margin-top: 50px;
 }
@@ -284,6 +285,16 @@ nav img {
 #visit {
   margin-top: 70px;
   text-align: center;
+}
+.card_dx {
+  width: 684px;
+  height: 637px;
+  background-color: #cdecec;
+}
+.card_sx {
+  width: 684px;
+  height: 637px;
+  background-color: #f0f0e2;
 }
 .visit_h {
   color: #8a3ec9;
@@ -397,6 +408,7 @@ h3 {
   position: absolute;
   width: 572px;
   height: 35px;
+  padding: 5px;
   border-radius: 5px;
   border: 1px;
   border: 1px solid #e6d4d4;
@@ -405,9 +417,9 @@ h3 {
 .footer_b button {
   font-size: 1rem;
   width: 140px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 580px;
-  padding: 13px 29px;
+  padding: 9px 34px;
   border-radius: 10px;
   border-style: none;
   color: white;
