@@ -76,13 +76,13 @@ nav {
   margin-right: 10px;
 }
 .navbar a:hover {
-  border-bottom: 3px solid #c05bc4;
+  border-bottom: 1px solid #c05bc4;
   margin-right: 10px;
-
   display: block;
 }
 .navbar a:after {
   content: "";
+  display: block;
   width: 100%;
   /* height: 1px; */
   position: absolute;
