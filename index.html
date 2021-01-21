@@ -121,7 +121,7 @@
                   <div class="overlay">
                     <div class="info"><p></p></div>
                   </div>
-                  <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+                  <img src="./img/choco-chip-cookies-500x638.jpg" alt="" />
                 </div>
                 <h4 class="roboto">Choco Chip Cookies</h4>
                 <p class="worksans">$18.00 – $32.00</p>
@@ -132,12 +132,12 @@
                 <p class="worksans">$36.00 – $60.00</p>
               </div>
               <div class="col_4">
-                <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+                <img src="./img/strawberry-donut-600x765.jpg" alt="" />
                 <h4 class="roboto">Strawberry Donut</h4>
                 <p class="worksans">$24.00 – $48.00</p>
               </div>
               <div class="col_4">
-                <img src="./img/strawberry-jam-cookies-235x300.jpg" alt="" />
+                <img src="./img/perfect-macarons-400x510.jpg" alt="" />
                 <h4 class="roboto">Perfect Macarons</h4>
                 <p class="worksans">$32.00 – $56.00</p>
               </div>
@@ -147,7 +147,7 @@
           <!-- SEZIONE PANE -->
           <div id="bread">
             <div class="col_12">
-              <img src="./img/screenshoti.png" alt="" />
+              <img class="pane" src="./img/bakery-process-1.jpg" alt="" />
             </div>
             <div class="col_6 d-flex">
               <div class="col_2">
@@ -167,32 +167,48 @@
               </div>
             </div>
             <div class="col_12">
-              <img class="delivered" src="./img/bakery-process-3.jpg" alt="" />
+              <img class="delivered" src="./img/" alt="" />
               <h2>Delivered to your home</h2>
             </div>
           </div>
           <!-- FINE SEZIONE PANE -->
           <!-- SEZIONE VISIT -->
-          <div id="visit">
+          <div id="visit" class="city">
             <p class="worksans">LOCATIONS</p>
             <h2 class="roboto visit_h">Visit our Bakeries</h2>
             <div class="d-flex">
               <div class="col_2">
                 <img src="./img/new-york-bk.jpg" alt="" />
-                <h2>New York</h2>
-                <div class="d-flex">
-                  <div class="col_3">grtfb</div>
-                  <div class="col_3">gtfg</div>
-                  <div class="col_3">grtg</div>
+                <h2 class="roboto city-h2">New York</h2>
+                <div class="open d-flex">
+                  <div class="col_3">
+                    <p class="worksans city-p">CALL US</p>
+                    <p class="worksans city-p">1.800.458.556</p>
+                  </div>
+                  <div class="col_3">
+                    <p class="worksans city-p">OPEN ALL WEEK</p>
+                    <p class="worksans city-p">9:00 AM – 6:00 PM</p>
+                  </div>
+                  <div class="col_3">
+                    <button type="button">View Map</button>
+                  </div>
                 </div>
               </div>
-              <div class="col_2">
+              <div class="col_2 city">
                 <img src="./img/london-bk.jpg" alt="" />
-                <h2>London</h2>
+                <h2 class="roboto city-h2">London</h2>
                 <div class="d-flex">
-                  <div class="col_3">dgfr</div>
-                  <div class="col_3">ferdeg</div>
-                  <div class="col_3">fvferdv</div>
+                  <div class="col_3">
+                    <p class="worksans city-p">CALL US</p>
+                    <p class="worksans city-p">1.800.458.556</p>
+                  </div>
+                  <div class="col_3">
+                    <p class="worksans city-p">OPEN ALL WEEK</p>
+                    <p class="worksans city-p">9:00 AM – 6:00 PM</p>
+                  </div>
+                  <div class="col_3">
+                    <button type="button">View Map</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -221,14 +237,27 @@
         <!-- INIZIO SEZIONE ORDINE SENZA CONTAINER -->
         <div id="order">
           <div>
-            <img src="./img/bakery-process-3.jpg" alt="" />
+            <img src="./img/call-to-action-bg.jpg" alt="" />
           </div>
         </div>
         <!-- FINE SEZIONE ORDINE SENZA CONTAINER -->
       </main>
       <!-- FINE SEZIONE MAIN -->
 
-      <footer class="container_footer"></footer>
+      <footer class="container_footer">
+        <div class="footer_a">
+          <div class="row d-flex">
+            <div class="col_6">
+              <div class="logo">
+                <img src="./img/avada-bakery-logo - Copia.png" alt="" />
+              </div>
+              <a href="#" class="worksans" v-for="link in footerEnd"
+                >{{ link.text }}
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

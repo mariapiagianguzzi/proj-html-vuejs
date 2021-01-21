@@ -36,6 +36,29 @@ let app = new Vue({
       "./img/home-bread-235x300.jpg",
       "./img/blackberry-stuffed-bread-200x255.jpg",
     ],
+    footerEnd: [
+      {
+        text: "Shop",
+      },
+      {
+        text: "About",
+      },
+      {
+        text: "Gallery",
+      },
+      {
+        text: "Locations",
+      },
+      {
+        text: "Journal",
+      },
+      {
+        text: "Contact",
+      },
+      {
+        text: "Orders",
+      },
+    ],
   },
   /*  methods: {
     next() {
